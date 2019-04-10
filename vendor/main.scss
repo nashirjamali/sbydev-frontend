@@ -1,0 +1,157 @@
+
+// Typography
+$font-size-base:              1rem !default;
+$font-size-lg:                $font-size-base * 1.25 !default;
+$font-size-sm:                $font-size-base * .875 !default;
+$font-weight-normal:          400 !default;
+$font-weight-bold:            600 !default;
+$font-weight-base:            $font-weight-normal !default;
+
+$h1-font-size:                $font-size-base * 2.875 !default;
+$h2-font-size:                $font-size-base * 2.375 !default;
+$h3-font-size:                $font-size-base * 1.625 !default;
+$h4-font-size:                $font-size-base * 1.25 !default;
+$h5-font-size:                $font-size-base * 1.125 !default;
+$h6-font-size:                $font-size-base !default;
+
+$headings-font-family: 'Poppins', sans-serif;
+$headings-font-weight: 600 !default;
+h4{
+    font-weight: 400 !important;
+}
+
+
+// Colors
+// Main Colors
+$light-green:   #53c940;
+$green:         #009700;
+$dark-green:    #006700;
+$light-blue:    #69b9ff;
+$blue:          #008aff;
+$dark-blue:     #005ecb;
+$orange:        #ff7a39;
+$red:           #e7494c;
+$dark-red:      #b00000;
+$dark:          #062331;
+$light:         #e5eef5;
+$secondary:     #99b3c6;
+
+$primary:       $light-green !default;
+$secondary:     $secondary !default;
+$danger:        $red !default;
+$info:          $blue !default;
+$dark:          $dark !default;
+$light:         $light !default;;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "info":       $info,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+  ),
+  $theme-colors
+);
+
+.bg-gradient-1{
+    background-image: linear-gradient(80deg, #00ac95, #53c940);
+}
+.bg-gradient-2{
+    background-image: linear-gradient(260deg, #00cfee, #008aff);
+}
+
+
+// Cards
+$card-border-width:     0px !default;
+$card-shadow-distant:   0 16px 24px 0 rgba(50, 50, 50, 0.06);
+$card-shadow-close:     0 2px 8px 0 rgba(50, 50, 50, 0.16);
+$card-shadow-subtle:    0 0 1px 0 rgba(50, 50, 50, 0.6);
+
+.card{
+    margin-bottom: 2em;
+}
+.card-distant{
+    box-shadow: $card-shadow-distant;
+}
+.card-close{
+    box-shadow: $card-shadow-close;
+}
+.card-subtle{
+    box-shadow: $card-shadow-subtle;
+}
+
+// Buttons
+
+$input-btn-padding-y:   0.8125rem !default;
+$input-btn-padding-x:   2.125rem !default;
+$btn-font-family:       'Roboto';
+$btn-font-weight:       600;
+
+.btn{ 
+    text-transform: uppercase;
+}
+
+@each $color, $value in $theme-colors {
+    .btn-#{$color} {
+        @if $color == primary{
+            color: white !important;
+        }
+        @if $color == secondary{
+            color: white !important;
+        }
+        box-shadow: -1.3px 1.5px 6px 0 rgba($value, 0.4);
+    }
+}
+
+
+@each $color, $value in $theme-colors {
+    .btn-outline-#{$color} {
+        color: $value;
+        &:hover{
+            @if $color == primary{
+                color: white !important;
+            }
+            @if $color == secondary{
+                color: white !important;
+            }
+            box-shadow: -1.3px 1.5px 6px 0 rgba($value, 0.4); 
+        }
+    }
+}
+
+
+// Navbar
+.navbar{
+    box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.16);
+}
+
+.navbar-nav{
+    margin-left: 7.5rem;
+}
+.nav-link{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1rem;
+    padding-right: 2.5rem !important; 
+}
+.nav-link.active,
+.nav-item.show .nav-link{
+    color: $green !important;
+}
+.nav-link:hover{
+    color: $green !important;
+}
+
+$nav-tabs-link-active-color: $green !default;
+
+
+// Section
+section{
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+
+@import "./node_modules/bootstrap/scss/bootstrap";

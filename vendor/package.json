@@ -1,0 +1,22 @@
+{
+  "name": "sbydev-designsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nashirjamali/sbydev-designsystem.git"
+  },
+  "author": "Nashir Jamali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nashirjamali/sbydev-designsystem/issues"
+  },
+  "homepage": "https://github.com/nashirjamali/sbydev-designsystem#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
