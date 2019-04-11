@@ -126,8 +126,8 @@ h4 {
           box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.16);
 }
 
-.navbar-nav {
-  margin-left: 7.5rem;
+.navbar-brand {
+  margin-right: 7.5rem !important;
 }
 
 .nav-link {
@@ -149,6 +149,20 @@ h4 {
 section {
   padding-top: 9%;
   padding-bottom: 9%;
+}
+
+.footer {
+  background-color: #516a7b;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: white;
+}
+
+.copyright {
+  background-color: #062331;
+  color: white;
+  padding-top: 0.8%;
+  padding-bottom: 0.8%;
 }
 
 /*!
