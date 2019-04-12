@@ -1,0 +1,9 @@
+/* Footer */
+.footer-item p{
+    color: #c0daee;
+}
+@media only screen and (max-width: 1024px){
+    .footer-item{
+        margin-bottom: 20px;
+    }
+}
