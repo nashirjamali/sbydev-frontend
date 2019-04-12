@@ -8,6 +8,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="./vendor/sbydev.css">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .login-header{
+            color: white;
+        }
+        .w-45{
+            width: 45%;
+        }
+    </style>
 </head>
 
 <body>
@@ -34,84 +42,31 @@
     </nav>
     <!-- Navbar End -->
 
-    <!-- Upcoming Event Begin -->
-    <section id="upcoming" class="bg-gradient-1">
-        <div class="container">
-            <h4>Upcoming Event</h4>
-            <div class="row">
-                <div class="col-md-6">
-                    <h1 class="mt-4">VueJS Academy</h1>
-                    <h4 class="mt-3">Saturday, April 13 2019</h4>
-                    <h5>at DILO Surabaya, Jalan Ratna No 1 Surabaya</h5>
-                    <p class="mt-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio veniam obcaecati
-                        perspiciatis minima, consectetur dolore omnis repudiandae tempora. Commodi vitae odit voluptates
-                        quaerat, doloremque autem corrupti officia facere atque animi!
-                    </p>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-5 pt-5">
-                    <div class="col d-flex justify-content-center">
-                        <h3>Our Speaker</h3>
-                    </div>
-                    <div class="row mt-5">
-                        <div class="col text-center">
-                            <div class="speaker-photo">
-                                <img src="./asset/img/dummy.svg">
-                            </div>
-                            <h5 class="mt-4">Jhon Doe</h5>
-                            <p>Front End Developer</p>
-                        </div>
-                        <div class="col text-center">
-                            <div class="speaker-photo">
-                                <img src="./asset/img/dummy.svg">
-                            </div>
-                            <h5 class="mt-4">Jhon Doe</h5>
-                            <p>Front End Developer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button type="button" class="btn btn-light mt-4">Join Event</button>
+  
+    <section class="bg-gradient-1">
+        <div class="login-header text-center mb-5">
+            <h1>Login Yuk.</h1>
+            <p>Biar kamu bisa akses fitur di website Surabaya Dev.</p>
         </div>
-    </section>
-    <!-- Coming Soon Event End -->
-
-    <section>
-        <div class="container">
-            <h3>Event Documentation</h3>
-            <div class="mt-4">
-                <div class="event-doc">
-                    <h4>Meetup Getting Started With Flutter<span class="ml-4 text-primary">March 24, 2019</span></h4>
-                    <div class=" row">
-                        <div class="col-6 col-md-2">
-                            <img src="./asset/img/dummy.svg" alt="..." class="">
-                        </div>
-                        <div class="col-6 col-md-2">
-                            <img src="./asset/img/dummy.svg" alt="..." class="">
-                        </div>
-                        <div class="col-6 col-md-2">
-                            <img src="./asset/img/dummy.svg" alt="..." class="">
-                        </div>
-                        <div class="col-6 col-md-2">
-                            <img src="./asset/img/dummy.svg" alt="..." class="">
-                        </div>
-                        <div class="col-6 col-md-2">
-                            <img src="./asset/img/dummy.svg" alt="..." class="">
-                        </div>
-                        <div class="col-6 col-md-2">
-                            <img src="./asset/img/dummy.svg" alt="..." class="">
-                        </div>
+        <div class="card w-45 m-auto">
+            <div class="card-body p-5">
+                <form style="margin-bottom: 18%;" >
+                    <div class="form-group pb-3">
+                        <label for="formGroupExampleInput">Alamat email</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="ex: example@surabaya.dev">
                     </div>
-
-                    <div class="row mt-5">
-                        <div class="col d-flex justify-content-center">
-                            <button type="button" class="btn btn-outline-primary">View More</button>
-                        </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Password</label>
+                        <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="">
                     </div>
-                </div>
+                </form>
+                <a href="#" class="btn btn-primary" style="min-width:100%;">Masuk</a>
+                <hr>
+                <a href="#" class="btn" style="min-width:100%;background-color: #99b3c6;color: white;">Daftar Akun Baru</a>
             </div>
+        </div> 
     </section>
+
 
     <footer>
         <div class="footer">
