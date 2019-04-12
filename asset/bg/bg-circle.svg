@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="548" viewBox="0 0 1280 548">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.221" y1="0.018" x2="0.815" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#53c940"/>
+      <stop offset="1" stop-color="#00ac95"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="1280" height="548" transform="translate(0 80)" opacity="0.83" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(0 -80)" opacity="0.56" clip-path="url(#clip-path)">
+    <g id="Group_2" data-name="Group 2">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="48.5" cy="48.5" r="48.5" transform="translate(-60 104)" fill="#fff" opacity="0.23"/>
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="49.5" cy="49.5" r="49.5" transform="translate(37 260)" fill="#fff" opacity="0.13"/>
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="99" cy="99" r="99" transform="translate(195 217)" fill="#fff" opacity="0.13"/>
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="38" cy="38" r="38" transform="translate(693 184)" fill="#fff" opacity="0.13"/>
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="56" cy="56" r="56" transform="translate(512 415)" fill="#fff" opacity="0.13"/>
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="56" cy="56" r="56" transform="translate(204 377)" fill="#fff" opacity="0.13"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="56" cy="56" r="56" transform="translate(731 511)" fill="#fff" opacity="0.13"/>
+      <circle id="Ellipse_12" data-name="Ellipse 12" cx="33.5" cy="33.5" r="33.5" transform="translate(1134 456)" fill="#fff" opacity="0.13"/>
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="44.5" cy="44.5" r="44.5" transform="translate(1078 128)" fill="#fff" opacity="0.13"/>
+      <circle id="Ellipse_5" data-name="Ellipse 5" cx="44.5" cy="44.5" r="44.5" transform="translate(1034 288)" fill="#fff" opacity="0.13"/>
+      <circle id="Ellipse_6" data-name="Ellipse 6" cx="44.5" cy="44.5" r="44.5" transform="translate(1009 311)" fill="#fff" opacity="0.13"/>
+      <circle id="Ellipse_11" data-name="Ellipse 11" cx="38" cy="38" r="38" transform="translate(512 40)" fill="#fff" opacity="0.13"/>
+    </g>
+  </g>
+</svg>
