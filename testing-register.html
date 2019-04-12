@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="./vendor/sbydev.css">
     <link rel="stylesheet" href="style.css">
     <style>
-        .login-header{
-            color: white;
-        }
+    .register-header{
+        color: white;
+    }
     </style>
 </head>
 
@@ -39,29 +39,50 @@
     </nav>
     <!-- Navbar End -->
 
-  
-    <section class="bg-gradient-1">
-        <div class="login-header text-center mb-5">
-            <h1>Login Yuk.</h1>
-            <p>Biar kamu bisa akses fitur di website Surabaya Dev.</p>
-        </div>
-        <div class="card w-50 m-auto">
-            <div class="card-body p-5">
-                <form style="margin-bottom: 18%;" >
-                    <div class="form-group pb-3">
-                        <label for="formGroupExampleInput">Alamat email</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="ex: example@surabaya.dev">
-                    </div>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput2">Password</label>
-                        <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="">
-                    </div>
-                </form>
-                <a href="#" class="btn btn-primary" style="min-width:100%;">Masuk</a>
-                <hr>
-                <a href="#" class="btn btn-primary" style="min-width:100%;">Daftar Akun Baru</a>
+    <section class="register bg-gradient-1">
+        <div class="container">
+            <div class="row">
+                <div class="register-header col-12 col-md-6 align-self-center">
+                    <h1>Daftarkan Dirimu.</h1>
+                    <p>Daftar yuk biar kamu bisa dapetin banyak benefit di website Surabaya Dev</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card m-auto">
+                        <div class="card-body p-5">
+                            <form style="margin-bottom: 18%;" >
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput2">Nama Lengkap</label>
+                                    <input type="nama" class="form-control" id="formGroupExampleInput2" placeholder="ex: Jhon Doe">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword4">Phone Number</label>
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text">+62</div>
+                                                </div>
+                                                <input type="text" class="form-control" id="inlineFormInputGroupUsername"
+                                                    placeholder="xxx-xxx-xxx">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput2">Alamat Email</label>
+                                    <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="ex: example@surabaya.dev">
+                                </div>
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput2">Password</label>
+                                    <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="">
+                                </div>
+                            </form>
+                            <a href="#" class="btn btn-primary" style="min-width:100%;">Register</a>
+                        </div>
+                    </div> 
+                </div>
             </div>
-        </div> 
+        </div>
     </section>
 
 
