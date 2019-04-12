@@ -18,13 +18,6 @@
 }
 
 /* Documentation */
-.event-doc .row .col-md-6{
-    width: 154px;
-    height: 154px;
-}
-.event-doc .row img{
-    object-fit: cover;
-}
 
 /* Footer */
 .footer-item p{
