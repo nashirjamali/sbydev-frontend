@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69" height="71" viewBox="0 0 69 71">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        opacity: 0.7;
+      }
+
+      .cls-3 {
+        fill: green;
+      }
+
+      .cls-4 {
+        filter: url(#Ellipse_4);
+      }
+    </style>
+    <filter id="Ellipse_4" x="1" y="4" width="67" height="67" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="button-down" transform="translate(0.5)">
+    <circle id="Ellipse_13" data-name="Ellipse 13" class="cls-1" cx="34.5" cy="34.5" r="34.5" transform="translate(-0.5)"/>
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, -0.5, 0)">
+      <circle id="Ellipse_4-2" data-name="Ellipse 4" class="cls-2" cx="24.5" cy="24.5" r="24.5" transform="translate(10 10)"/>
+    </g>
+    <path id="Union_11" data-name="Union 11" class="cls-3" d="M5.249,16.785h0L0,11.615,2.249,9.4l5.25,5.17L12.75,9.4,15,11.615,7.5,19Zm0-9.4h0L0,2.215,2.249,0,7.5,5.17,12.75,0,15,2.215,7.5,9.6Z" transform="translate(26.5 25)"/>
+  </g>
+</svg>

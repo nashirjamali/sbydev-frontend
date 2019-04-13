@@ -1,3 +1,4 @@
+
 /* Coming Soon */
 #upcoming{
     background-image: url('./asset/bg/bg-circle.svg'), linear-gradient(80deg, #00ac95, #53c940);
@@ -6,7 +7,7 @@
     color: white;
 }
 
-@media only screen and (max-width: 823px){
+@media only screen and (max-width: 769px){
     #upcoming{
         text-align: center;
     }
@@ -23,8 +24,51 @@
 .footer-item p{
     color: #c0daee;
 }
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 768px){
     .footer-item{
         margin-bottom: 20px;
+    }
+}
+
+
+/* About Us */
+
+
+/* Headline */
+#headline{
+    background-image: url('./asset/img/team.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 20%;
+    padding-bottom: 11%;
+}
+
+#headline>.container>img{
+    display: table;
+    margin: auto;
+    margin-bottom: 10%;
+}
+#headline>.container>a{
+    display: table;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1366px){
+    #headline{
+        padding-top: 30%;
+        padding-bottom: 10%;
+        width: auto;
+        background-size: 200%;
+        background-position: center top;
+    }
+    #headline>.container>img{
+        width: 50%;
+        height: auto;
+        margin-bottom: 10%;
+    }
+    #headline>a{
+        width: 17%;
     }
 }
