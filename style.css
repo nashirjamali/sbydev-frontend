@@ -75,32 +75,36 @@
     }
 }
 
-
 /* Sejarah */
-#aboutus-bg-1{
+
+#aboutus-bg-1 {
     background-image: url('./asset/bg/blob-shape-1.svg');
     background-repeat: no-repeat;
     background-size: 817.2px;
     background-position: -200px 90%;
 }
 
-#sejarah{
+#sejarah {
     display: table;
-    margin: auto;   
+    margin: auto;
 }
+
 #sejarah-1 {
     margin-top: 10%;
 }
+
 #sejarah-2 {
     margin-top: 10%;
 }
-#sejarah-1>.col-lg-5>p #sejarah-2>.col-lg-5>p{
+
+#sejarah-1>.col-lg-5>p #sejarah-2>.col-lg-5>p {
     vertical-align: middle;
-    
 }
-#sejarah-2>.col-lg-5>img, #sejarah-1>.col-lg-5>img{
+
+#sejarah-2>.col-lg-5>img, #sejarah-1>.col-lg-5>img {
     width: 100%;
 }
+
 @media only screen and (max-width: 1366px) {
     #sejarah-1 {
         text-align: center
@@ -114,7 +118,7 @@
     #sejarah-1>img {
         display: table;
         margin: auto;
-    }    
+    }
     #sejarah-2>img {
         display: table;
         margin: auto;
@@ -122,25 +126,50 @@
 }
 
 /* Visi Misi */
-#visimisi{
+
+#visimisi {
     text-align: center;
 }
 
 /* Program Kegiatan */
-#programkegiatan img{
+
+#programkegiatan img {
     width: 100%;
 }
 
 /* Tim Kami */
-#timkami{
+
+#timkami {
     text-align: center;
     display: table;
     margin: auto;
 }
-#timkami .col-md-4{
-    padding: 8% ;
+
+#timkami .col-md-4 {
+    padding: 8%;
 }
 
-#timkami img{
+#timkami img {
     width: 80%;
 }
+
+/* Login */
+#login-card {
+    background-color: white;
+    border-radius: 10px;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    padding: 5%;
+    display: table;
+    margin: auto;
+    width: 50%;
+}
+#login-card button {
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    #login-card{
+        width: 90%;
+    }
+}
+
