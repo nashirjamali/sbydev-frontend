@@ -83,12 +83,18 @@
     background-size: 817.2px;
     background-position: -200px 90%;
 }
-
 #sejarah-1 {
     margin-top: 10%;
 }
 #sejarah-2 {
     margin-top: 10%;
+}
+#sejarah-1>.col-lg-5>p #sejarah-2>.col-lg-5>p{
+    vertical-align: middle;
+    
+}
+#sejarah-2>.col-lg-5>img, #sejarah-1>.col-lg-5>img{
+    width: 100%;
 }
 @media only screen and (max-width: 1366px) {
     #sejarah-1 {
