@@ -8,17 +8,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="./vendor/sbydev.css">
     <link rel="stylesheet" href="style.css">
-    <style>
-    .register-header{
-        color: white;
-    }
-    </style>
 </head>
 
 <body>
 
     <!-- Navbar Begin -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img height="49px" width="132px" src="./vendor/img/brand/logo-small.png" alt="" srcset="">
@@ -29,61 +24,62 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Event <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Event</a>
                     <a class="nav-item nav-link" href="#">Blog</a>
                     <a class="nav-item nav-link" href="#">Merchandise</a>
-                    <a class="nav-item nav-link" href="#">About Us</a>
+                    <a class="nav-item nav-link active" href="#">About Us</a>
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <button class="btn btn-outline-primary">Join With Us</button>
                 </div>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
 
-    <section class="register bg-gradient-1">
+    <!-- Register Begin -->
+    <section class="bg-gradient-1" id="register">
         <div class="container">
             <div class="row">
-                <div class="register-header col-12 col-md-6 align-self-center">
-                    <h1>Daftarkan Dirimu.</h1>
-                    <p>Daftar yuk biar kamu bisa dapetin banyak benefit di website Surabaya Dev</p>
+                <div class="col-12 col-md-6 align-self-center">
+                    <h1 class="text-light">Daftarkan Dirimu.</h1>
+                    <h4 class="text-light">Daftar yuk biar kamu bisa dapetin banyak benefit di website Surabaya Dev</h4>
                 </div>
-                <div class="col-12 col-md-6">
-                    <div class="card m-auto">
-                        <div class="card-body p-5">
-                            <form style="margin-bottom: 18%;" >
-                                <div class="form-group">
-                                    <label for="formGroupExampleInput2">Nama Lengkap</label>
-                                    <input type="nama" class="form-control" id="formGroupExampleInput2" placeholder="ex: Jhon Doe">
-                                </div>
-                                <div class="form-group">
-                                    <label for="inputPassword4">Phone Number</label>
-                                    <div class="row">
-                                        <div class="col-8">
-                                            <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <div class="input-group-text">+62</div>
-                                                </div>
-                                                <input type="text" class="form-control" id="inlineFormInputGroupUsername"
-                                                    placeholder="xxx-xxx-xxx">
-                                            </div>
-                                        </div>
+                <div class="col-12 col-md-6 mt-4">
+                    <div class="card-closed m-auto" id="register-card">
+                        <form>
+                            <div class="form-group">
+                                <label for="inputNamaLengkap">Nama Lengkap</label>
+                                <input type="name" class="form-control" id="inputNamaLengkap"
+                                    placeholder="ex: Jhon Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputNamaLengkap">Telepon</label>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="addon-tlp">+62</span>
                                     </div>
+                                    <input type="number" class="form-control" placeholder="xxx - xxx - xxxx"
+                                        aria-label="Telepon" aria-describedby="addon-tlp">
                                 </div>
-                                <div class="form-group">
-                                    <label for="formGroupExampleInput2">Alamat Email</label>
-                                    <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="ex: example@surabaya.dev">
-                                </div>
-                                <div class="form-group">
-                                    <label for="formGroupExampleInput2">Password</label>
-                                    <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="">
-                                </div>
-                            </form>
-                            <a href="#" class="btn btn-primary" style="min-width:100%;">Register</a>
-                        </div>
-                    </div> 
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail">Alamat Email</label>
+                                <input type="email" class="form-control" id="inputEmail"
+                                    placeholder="ex: example@surabaya.dev">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword">Password</label>
+                                <input type="password" class="form-control" id="inputPassword" placeholder="">
+                            </div>
+                            <button class="btn btn-primary mt-3">Register</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- Register End -->
 
 
     <footer>

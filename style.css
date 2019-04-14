@@ -157,8 +157,6 @@
 #login-card {
     background-color: white;
     border-radius: 10px;
-    /* margin-left: 5%;
-    margin-right: 5%; */
     padding: 5%;
     display: table;
     margin: auto;
@@ -173,3 +171,18 @@
     }
 }
 
+
+/* Register */
+#register-card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5%;
+}
+#register-card button{
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    #register-card{
+        width: 100%;
+    }
+}
