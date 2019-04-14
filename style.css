@@ -83,6 +83,11 @@
     background-size: 817.2px;
     background-position: -200px 90%;
 }
+
+#sejarah{
+    display: table;
+    margin: auto;   
+}
 #sejarah-1 {
     margin-top: 10%;
 }
@@ -119,4 +124,23 @@
 /* Visi Misi */
 #visimisi{
     text-align: center;
+}
+
+/* Program Kegiatan */
+#programkegiatan img{
+    width: 100%;
+}
+
+/* Tim Kami */
+#timkami{
+    text-align: center;
+    display: table;
+    margin: auto;
+}
+#timkami .col-md-4{
+    padding: 8% ;
+}
+
+#timkami img{
+    width: 80%;
 }
