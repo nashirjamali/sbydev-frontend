@@ -186,3 +186,55 @@
         width: 100%;
     }
 }
+
+/* Home */
+
+.navbar.unscrolled {
+    background: rgba(0, 0, 0, 0);
+}
+
+#home-headline{
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -5%;
+    background-image: url('asset/img/speaker-1.png');
+}
+
+#home-headline .container{
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+#home-event{
+    background-color: #F7F7F7;
+}
+
+.btn-telegram{
+    background-color: #2BA2DB;
+    color: white;
+}
+
+.btn-telegram:hover{
+    color: white;
+}
+
+.btn-instagram{
+    background-color: #E0156A;
+    color: white;
+}
+.btn-instagram:hover{
+    color: white;
+}
+
+.btn-facebook{
+    background-color: #4267B2;
+    color: white;
+}
+.btn-facebook:hover{
+    color: white;
+}
+
+#home-testimoni{
+    background-color: #F7F7F7;
+}
